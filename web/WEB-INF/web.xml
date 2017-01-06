@@ -22,7 +22,16 @@
         <url-pattern>/checkName</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>getMap</servlet-name>
+        <servlet-class>getMap</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getMap</servlet-name>
+        <url-pattern>/getMap</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>getmap.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
